@@ -1,5 +1,15 @@
 # frame-interval
 
+Execute a function n-times per second, on requestAnimationFrame
+
+## Installation
+
+```
+npm i frame-interval --save
+```
+
+## Usage
+
 ```javascript
 import fps from 'frame-interval';
 

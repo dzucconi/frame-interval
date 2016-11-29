@@ -3,7 +3,9 @@
 ```javascript
 import fps from 'frame-interval';
 
-const start = fps(requestAnimationFrame)(30, draw);
+const FPS = 30;
 
-start();
+fps(requestAnimationFrame)(30, frame => {
+  document.body.innerHTML = `${Math.floor(frame / FPS)} ${frame}`
+})();
 ```

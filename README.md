@@ -16,6 +16,6 @@ import fps from 'frame-interval';
 const FPS = 30;
 
 fps(requestAnimationFrame)(FPS, frame => {
-  document.body.innerHTML = `${Math.floor(frame / FPS)} ${frame}`
+  document.body.innerHTML = `${Math.floor(frame / FPS)} ${frame}`;
 })();
 ```

@@ -4,7 +4,7 @@ Execute a function n-times per second, on requestAnimationFrame
 
 ## Installation
 
-```
+```bash
 yarn add frame-interval
 # or
 npm i frame-interval --save

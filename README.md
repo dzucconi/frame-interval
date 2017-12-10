@@ -1,6 +1,12 @@
 # frame-interval
 
-Execute a function n-times per second, on requestAnimationFrame
+## What is this?
+
+A library that allows you to limit the execution of `requestAnimationFrame` to n-frames per second for some value of n.
+
+## Why should I use this?
+
+* You want a `requestAnimationFrame` interface which runs at a lower speed or is bounded at some upper limit.
 
 ## Installation
 
@@ -21,6 +27,13 @@ fps(requestAnimationFrame)(FPS, frame => {
   document.body.innerHTML = `${Math.floor(frame / FPS)} ${frame}`;
 })();
 ```
+
+The default export accepts some callback accepting function. You'll likely use `requestAnimationFrame`, but can polyfill if necessary.
+
+The returned function accepts
+* a framerate
+* a function to execute on every tick
+* and optionally some predicate which allows you to conditionally pause execution of the tick.
 
 ```javascript
 let stopped = false;

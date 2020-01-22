@@ -19,6 +19,6 @@
     "eslint-plugin-standard": "2.3.1",
     "mocha": "3.5.3",
     "should": "11.2.1",
-    "sinon": "1.17.7"
+    "sinon": "8.1.1"
   }
 }

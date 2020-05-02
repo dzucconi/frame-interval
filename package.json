@@ -19,7 +19,7 @@
   "author": "Damon Zucconi",
   "license": "MIT",
   "devDependencies": {
-    "auto": "9.30.3",
+    "auto": "9.30.4",
     "typescript": "3.8.3"
   },
   "repository": "dzucconi/frame-interval",

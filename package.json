@@ -9,6 +9,7 @@
     "compile": "yarn clean && tsc -p .",
     "build": "yarn compile",
     "prepublishOnly": "yarn build",
+    "release": "auto shipit",
     "watch": "tsc -w -p ."
   },
   "keywords": [
@@ -18,6 +19,14 @@
   "author": "Damon Zucconi",
   "license": "MIT",
   "devDependencies": {
+    "auto": "^9.30.3",
     "typescript": "^3.8.3"
+  },
+  "repository": "dzucconi/frame-interval",
+  "auto": {
+    "plugins": [
+      "npm",
+      "released"
+    ]
   }
 }

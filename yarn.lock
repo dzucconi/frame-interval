@@ -360,7 +360,7 @@ author-regex@^1.0.0:
   resolved "https://registry.yarnpkg.com/author-regex/-/author-regex-1.0.0.tgz#d08885be6b9bbf9439fe087c76287245f0a81450"
   integrity sha1-0IiFvmubv5Q5/gh8dihyRfCoFFA=
 
-auto@^9.30.3:
+auto@9.30.3:
   version "9.30.3"
   resolved "https://registry.yarnpkg.com/auto/-/auto-9.30.3.tgz#dfd3e29e71fd9458997dd954b215293607956065"
   integrity sha512-w0NtbI8eu49ZaW0wLdKRNXJzBdkLwlyOrmaJRZ7rlAPxepE7KbuT1w4eF7tZJt9TogOOFCX+XEY0Uo7GP6RyKg==
@@ -1412,7 +1412,7 @@ typescript-memoize@^1.0.0-alpha.3:
   dependencies:
     core-js "2.4.1"
 
-typescript@^3.8.3:
+typescript@3.8.3:
   version "3.8.3"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.8.3.tgz#409eb8544ea0335711205869ec458ab109ee1061"
   integrity sha512-MYlEfn5VrLNsgudQTVJeNaQFUAI7DkhnOjdpAp4T+ku1TfQClewlbSuTVHiA+8skNBgaf02TL/kLOvig4y3G8w==

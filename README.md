@@ -22,6 +22,16 @@ import { frameInterval } from "frame-interval";
 const FPS = 24;
 
 // constructor FrameInterval(fps: number, callback: FrameIntervalCallback): FrameInterval
+
+// type FrameIntervalCallback = (
+//   props?:
+//     | {
+//         time: number;
+//         frame: number;
+//       }
+//     | undefined
+// ) => void;
+
 const fi = new FrameInterval(FPS, ({ frame }) => {
   document.body.innerHTML = `${Math.floor(frame / FPS)} ${frame}`;
 });

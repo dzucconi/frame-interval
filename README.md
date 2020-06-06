@@ -17,7 +17,7 @@ yarn add frame-interval
 ## Usage
 
 ```ts
-import { frameInterval } from "frame-interval";
+import { FrameInterval } from "frame-interval";
 
 const FPS = 24;
 

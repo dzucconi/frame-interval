@@ -20,7 +20,7 @@
   "license": "MIT",
   "devDependencies": {
     "auto": "9.46.0",
-    "typescript": "3.9.6"
+    "typescript": "3.9.7"
   },
   "repository": "dzucconi/frame-interval",
   "auto": {
